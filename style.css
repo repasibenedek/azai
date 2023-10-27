@@ -131,17 +131,20 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 th {
     background-color: #7289da;
     color: #ffffff;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 footer nav {
