@@ -15,65 +15,26 @@ html::-webkit-scrollbar-thumb {
     background: #555;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0px;
-    padding: 0px;
-}
-
-body h1, h2, h3, h4, p {
+body, h1, p {
+    margin: 0;
+    padding: 0;
     font-family: Copperplate, Papyrus, fantasy;
 }
 
-h1::selection {
-    background-color: greenyellow;
-    color: #fff;
+header {
+    background-color: #333;
+    color: #7d7d7d;
+    padding: 10px;
 }
 
-h2::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h3::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h4::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h5::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h6::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-p::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-a::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-header, footer {
-    background-color: #4e5754;
-    color: #fff;
-    padding: 5px;
-    font-family: Copperplate, Papyrus, fantasy;
+footer {
+    background-color: #333;
+    color: #7d7d7d;
+    padding: 18px;
 }
 
 header h1, footer p {
     text-align: center;
-    color: #c0c0c0;
     font-family: Copperplate, Papyrus, fantasy;
 }
 
@@ -85,21 +46,124 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    text-align: center;
+}
+
+section {
+    margin: 20px;
 }
 
 a {
-    color: greenyellow;
+    color: #007acc;
     text-decoration: none;
     font-family: Copperplate, Papyrus, fantasy;
 }
 
 a:hover {
-    color: red;
-    text-decoration: underline;
-    text-decoration: dashed;
+    color: #15ff00;
 }
 
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.game h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #0a5a00;
+}
+
+.game p {
+    font-size: 18px;
+}
+
+.ember {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.ember img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ember h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #0a5a00;
+}
+
+.ember p {
+    font-size: 18px;
+}
+
+h1::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+h2::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+h3::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+h4::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+h5::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+h6::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+p::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+a::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+footer nav {
+    text-align: center;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;

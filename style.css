@@ -15,60 +15,22 @@ html::-webkit-scrollbar-thumb {
     background: #555;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0px;
-    padding: 0px;
-}
-
-body h1, h2, h3, h4, p {
+body, h1, p {
+    margin: 0;
+    padding: 0;
     font-family: Copperplate, Papyrus, fantasy;
 }
 
-h1::selection {
-    background-color: greenyellow;
-    color: #fff;
+header {
+    background-color: #333;
+    color: #7d7d7d;
+    padding: 10px;
 }
 
-h2::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h3::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h4::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h5::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-h6::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-p::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-a::selection {
-    background-color: greenyellow;
-    color: #fff;
-}
-
-header, footer {
-    background-color: #4e5754;
-    color: #c0c0c0;
-    padding: 5px;
-    font-family: Copperplate, Papyrus, fantasy;
+footer {
+    background-color: #333;
+    color: #7d7d7d;
+    padding: 18px;
 }
 
 header h1, footer p {
@@ -84,29 +46,54 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    text-align: center;
-}
-
-a {
-    color: greenyellow;
-    text-decoration: none;
-    font-family: Copperplate, Papyrus, fantasy;
-}
-
-a:hover {
-    color: red;
-    text-decoration: underline;
-    text-decoration: dashed;
 }
 
 section {
     margin: 20px;
 }
 
-main {
-    margin: 0px;
-    padding: 0px;
+a {
+    color: #007acc;
+    text-decoration: none;
     font-family: Copperplate, Papyrus, fantasy;
+}
+
+a:hover {
+    color: #15ff00;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game {
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.game img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.game h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #0a5a00;
+}
+
+.game p {
+    font-size: 18px;
 }
 
 .ember {
@@ -134,31 +121,44 @@ main {
     font-size: 18px;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-width: 100vh;
+h1::selection {
+    background-color: #15ff00;
+    color: #000;
 }
 
-section {
-    flex: 1;
+h2::selection {
+    background-color: #15ff00;
+    color: #000;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
+h3::selection {
+    background-color: #15ff00;
+    color: #000;
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+h4::selection {
+    background-color: #15ff00;
+    color: #000;
 }
 
-th {
-    background-color: #7289da;
-    color: #ffffff;
+h5::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+h6::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+p::selection {
+    background-color: #15ff00;
+    color: #000;
+}
+
+a::selection {
+    background-color: #15ff00;
+    color: #000;
 }
 
 footer nav {
