@@ -1,0 +1,119 @@
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #dddddd #dddddd;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+body h1, h2, h3, h4, p {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+h1::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+h2::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+h3::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+h4::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+h5::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+h6::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+p::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+a::selection {
+    background-color: greenyellow;
+    color: #fff;
+}
+
+header, footer {
+    background-color: #4e5754;
+    color: #fff;
+    padding: 5px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+header h1, footer p {
+    text-align: center;
+    color: #fff;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration: dashed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin: 10px 20px;
+    line-height: 1.4;
+    color: #555;
+}
