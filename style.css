@@ -1,3 +1,4 @@
+/*AzEletBabosOldala_KIG_2023*/
 html {
     scrollbar-width: normal;
     scrollbar-color: #dddddd #dddddd;
@@ -23,6 +24,14 @@ body, h1, p {
 
 #all_1, h4 {
     color: #5c5c5c;
+}
+
+#videos, h3 {
+    color: red;
+}
+
+#photos, h3 {
+    color: red;
 }
 
 header {
