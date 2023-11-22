@@ -22,6 +22,14 @@ body, h1, p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#index_1 {
+
+}
+
+#index_1_png {
+    
+}
+
 #all_1, h4 {
     color: #5c5c5c;
 }
@@ -32,6 +40,14 @@ body, h1, p {
 
 #photos, h3 {
     color: red;
+}
+
+#png_index_1, img {
+    border: 1px solid #5c5c5c;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    
 }
 
 header {
