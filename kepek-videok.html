@@ -1,46 +1,89 @@
 <!--AzEletBabosOldala_KIG_2023-->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Az AI | AzEletBabosOldala</title>
-        <link href=".\favicon.png" rel="shortcut icon">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
-    </head>
+<head>
+    <title>Az AI | AzEletBabosOldala</title>
+    <link href=".\favicon.png" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <style>
+        h3{
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
     <header>
-        <h1>Mesterséges Intelligencia Versenyfeladat</h1>
-        <h2>Avagy mi az az AI?</h2>
-        <nav>
-            <ul>
-                <li><a href="/index">Főoldal</a></li>
-                <li><a href="/mi-az-ai">Mi az AI?</a></li>
-                <li><a href="/hol-hasznaljuk">Hol használjuk?</a></li>
-                <li><a href="/kepek-videok">Képek/Videók</a></li>
-                <li><a href="/rolunk">Rólunk</a></li>
-                <li><a href="/elerhetosegek">Elérhetőségek</a></li>
-                <li><a href="/forrasok">Források</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Mesterséges Intelligencia Versenyfeladat</h1>
+            <h2>Avagy mi az az AI?</h2>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="/index">Főoldal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/mi-az-ai">Mi az AI?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/hol-hasznaljuk">Hol használjuk?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/kepek-videok">Képek/Videók</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/rolunk">Rólunk</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/forrasok">Források</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-    <body>
-        <section class="videos">
+
+
+
+
+    
+
+        <div class="videos container">
+
             <h3>Videók</h3>
-            <h5><a href="https://www.youtube.com">Youtube</a></h5>
-            <iframe width="653" height="367" src="https://www.youtube.com/embed/QvRm_TAvmyo" title="Mire jó a mesterséges intelligencia az online értékesítésben?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="653" height="367" src="https://www.youtube.com/embed/c0m6yaGlZh4" title="What is Artificial Intelligence? | Quick Learner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-        <section class="photos">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe width="100%" height="367" src="https://www.youtube.com/embed/QvRm_TAvmyo" title="Mire jó a mesterséges intelligencia az online értékesítésben?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="100%" height="367" src="https://www.youtube.com/embed/c0m6yaGlZh4" title="What is Artificial Intelligence? | Quick Learner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <div class="photos container">
             <h3>Képek</h3>
-            <img src="ai1.gif" alt="AI-01">
-            <br>
-            <img src="ai2.gif" alt="AI-02">
-            <br>
-            <img src="ai3.jpg" alt="AI-03">
-            <br>
-            <img src="ai4.png" alt="AI-04">
-        </section>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="ai1.gif" alt="AI-01" class="img-fluid" style="max-width: 100%;">
+                </div>
+                <div class="col-md-3">                
+                    <img src="ai2.gif" alt="AI-02" class="img-fluid" style="max-width: 100%;">
+                </div>
+                <div class="col-md-3">                
+                    <img src="ai3.jpg" alt="AI-03" class="img-fluid" style="max-width: 100%;">
+                </div>
+                <div class="col-md-3">                
+                    <img src="ai4.png" alt="AI-04" class="img-fluid" style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
     </body>
     <footer>
         <p>Készült: Magyarország Kormánya megbízásából |                  Versenyfeladat</p>

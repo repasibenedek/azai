@@ -7,7 +7,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
     </head>
     <header>
         <h1>Mesterséges Intelligencia Versenyfeladat</h1>
@@ -26,10 +27,64 @@ Vonzz a programozás és az informatika egyéb területei.<br>
 Kicsi korom óta játszok gépen különféle videójátékokat.<br>
 Szabadidőmben játszok, sportolok és néha programozással próbálkozok.
 </p>
+
+<hr style=" background-color: lightgray; height: 2px;">
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" style="text-align: center;">
+<a target="_blank" href="https://discordlookup.com/user/662944360198832158"><img src="../dc.png"><br>blxxdy!</a>
+        </div>
+        <div class="col-md-4" style="text-align: center">
+            <img src="../mail.png"><br>
+            <input readonly type="text" id="copyEmail" value="babelgergo@gmail.com" onclick="copyEmail()">
+            <br>
+            <div>&nbsp;<span id="copyMessageEmail" style="display: none;">Kimásolva</span></div>
+        </div>
+        <div class="col-md-4" style="text-align: center">
+            <img src="../messenger.jpg"><br>
+            <input readonly type="text" id="copyMessenger" value="Bábel Gergő" onclick="copyMessenger()">
+            <br>
+            <div>&nbsp;<span id="copyMessageMessenger" style="display: none;">Kimásolva</span></div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function copyEmail() {
+  var copyText = document.getElementById("copyEmail");
+  copyText.select();
+  document.execCommand("copy");
+  var copyMessage = document.getElementById("copyMessageEmail");
+  copyMessage.style.display = "inline";
+  setTimeout(function() {
+    copyMessage.style.display = "none";
+  }, 500);  
+}
+
+function copyMessenger() {
+  var copyText = document.getElementById("copyMessenger");
+  copyText.select();
+  document.execCommand("copy");
+  var copyMessage = document.getElementById("copyMessageMessenger");
+  copyMessage.style.display = "inline";
+  setTimeout(function() {
+    copyMessage.style.display = "none";
+  }, 500); 
+}
+
+</script>
+
     </section>
     <footer>
         <p>Készült: Magyarország Kormánya megbízásából |                  Versenyfeladat</p>
         <p>Répási Benedek</p>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>

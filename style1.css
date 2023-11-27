@@ -1,3 +1,4 @@
+
 /*AzEletBabosOldala_KIG_2023*/
 html {
     scrollbar-width: normal;
@@ -19,7 +20,7 @@ html::-webkit-scrollbar-thumb {
 body, h1, p {
     margin: 0;
     padding: 0;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header {
@@ -36,7 +37,7 @@ footer {
 
 header h1, footer p {
     text-align: center;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 nav ul {
@@ -56,7 +57,7 @@ section {
 a {
     color: #007acc;
     text-decoration: none;
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a:hover {
@@ -122,51 +123,11 @@ main {
     font-size: 18px;
 }
 
-h1::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-h2::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-h3::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-h4::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-h5::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-h6::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-p::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
-a::selection {
-    background-color: #15ff00;
-    color: #000;
-}
-
 footer nav {
     text-align: center;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #f2f2f2;
     margin: 0;
     padding: 0;
@@ -198,4 +159,18 @@ th, td {
 th {
     background-color: #333;
     color: #7d7d7d;
+}
+
+h2 {
+    text-align: center;
+    color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+::selection {
+    background-color: #15ff00;
+    color: #000;
 }
